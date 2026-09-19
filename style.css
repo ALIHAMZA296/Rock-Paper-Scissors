@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(69, 95, 133);
+    height: 100vh;
+    width: 100%;
+}
+.heading {
+    height: 5rem;
+    background-color: #081b31;
+    display: flex;
+}
+
+h1{
+    line-height: 5rem;
+    color: #fff;
+    display: flex;
+    margin-left: 3rem;
+}
+
+.choice:hover {
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 4rem;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.score-board {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 2rem
+    
+}
+
+.msg-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#user-score,
+#comp-score {
+    font-size: 4rem;
+}
+
+#msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: inline;
+
+}
+ 
+
+/* after lec */
+
+#newbtn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#resetbtn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #081b31;
+    color: #fff;
+    border-radius: 1rem;
+    margin-left: 40rem;
+    border: none;
+    box-sizing: border-box;
+}
+
+#resetbtn:hover{
+    border: 2px solid #fff;
+}
